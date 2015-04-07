@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "cfn"
   spec.version       = CFN::VERSION
   spec.authors       = ["Sergey Valiev"]
-  spec.email         = ["svaliev@aligntech.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.email         = ["svaliev@gmail.com"]
+  spec.summary       = %q{AWS::CloudFormation sugar}
   spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Valiev/cfn"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
