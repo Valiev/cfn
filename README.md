@@ -1,4 +1,4 @@
-# Cfn
+# CFN
 
 TODO: Write a gem description
 
@@ -20,11 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Output
+
+Support for `outputs`, example:
+
+```
+output "ChefServerIP" do
+  value "10.123.123.123"
+  description "IP for newly created Chef server"
+end
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/cfn/fork )
+1. Fork it ( https://github.com/Valiev/cfn/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
