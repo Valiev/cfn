@@ -1,5 +1,9 @@
 # CHANGELOG for CNF gem
 
+## 0.2.0
+  * Basic rspec tests added
+  * Fixed module name for `lib/output'`
+
 ## 0.1.0
   * DSL support `output`
 
