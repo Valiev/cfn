@@ -5,7 +5,7 @@
 #   description "IP for newly created Chef server"
 # end
 
-module CNF
+module CFN
   class Output
     def initialize(name, &block)
       @name = name
@@ -39,5 +39,5 @@ module CNF
 end
 
 def output(name, &block)
-  CNF::Output.new(name, &block)
+  CFN::Output.new(name, &block)
 end
