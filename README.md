@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Valiev/cfn.svg)](https://travis-ci.org/Valiev/cfn)
+
 # CFN
 
 TODO: Write a gem description
