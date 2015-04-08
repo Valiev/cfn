@@ -2,6 +2,7 @@
 
 ## 0.2.1
   * Travis-ci support added
+  * Trigger travis-ci
 
 ## 0.2.0
   * Basic rspec tests added
